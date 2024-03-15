@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form-container animate_animated animate_fadeInUp">
+        <form id="form" class="form-section">
+            <h2>CREATE ACCOUNT</h2>
+            <div class="form-input">
+                <label for="username"Username></label>
+                <input type="text" id="username" name="username" placeholder="Enter Username"/>
+                <small>Error message</small>
+            </div>
+            <div class="form-input">
+                <label for="email">Email</label>
+                <input type="text" id="email" placeholder="Enter email"/>
+                <small>Error message</small>
+            </div>
+            <div class="form-input">
+                <label for="password">Password</label>
+                <input type="password" id="password" placeholder="Enter password"/>
+                <small>Error message</small>
+            </div>
+            <div class="form-input">
+                <label for="password2">Confirm Password</label>
+                <input type="password" id="password2" placeholder="Enter password again"/>
+                <small>Error message</small>
+            </div>
+            <div class="form-submit">
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    </div> 
+    <script src="script.js"></script>  
+</body>
+</html>
